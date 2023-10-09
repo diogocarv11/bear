@@ -1,0 +1,53 @@
+
+
+header { 
+        /* 2ª técnica Float 
+           Fazer com que não se esqueça dos elementos com float 
+        
+        overflow: hidden;
+        */
+
+        /* 3ª técnica FlexBox */
+        display:flex; 
+        justify-content: space-evenly;
+
+}
+
+header img { 
+                /* 2ª técnica Float 
+                float:left
+                */
+           }
+
+header h1 { 
+            /* 1ª técnica Display inline-block
+            display: inline-block; 
+            */
+
+            /* 2ª técnica Float 
+            float:right; 
+            */
+}
+
+nav { 
+     display: flex;
+     justify-content: center;
+    }
+
+nav a { 
+        text-decoration: none;
+        margin-right: 2em;
+      }    
+
+main section { 
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: space-around;
+            }      
+
+section article { 
+                    box-sizing: border-box;
+                    width: 40%;
+                } 
+                
+figure img { max-width: 100%;}                 
